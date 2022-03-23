@@ -19,7 +19,7 @@ let totalValue = totalTip + billAmount;  // calcualte total bill (totalTip + bil
 
 
 /* --------------------------------Step 5: Append your HTML content with the new information-----**use .fixed(2) to display the value with 2 decimal places.-------------------- */
-total.innerHTML = "$" + totalValue.toFixed(2);  // change the innerHTML of the tip var from step 3 to the total tip from step 4
+total.innerHTML = `$ + totalValue.toFixed(2);  // change the innerHTML of the tip var from step 3 to the total tip from step 4
 tip.innerHTML = "$" + totalTip.toFixed(2);  // change the innterHTML of the bill var from step 3 to the total bill var from step 2
 bill.innerHTML = "$" + billAmount.toFixed(2);  // change the innerHTML of the total var from step 3 to the total bill var from step 4
 
