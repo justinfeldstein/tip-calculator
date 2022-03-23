@@ -1,7 +1,7 @@
 function calcTip(){
 /* --------------------------------Step 1: grab the input values------------------------------------------------------ */
-let tipValue = document.getElementById('tipForm').value  //sets a variable for the tip Amount selector to the VALUE of the #tipForm selector
-let billValue = document.getElementById('billInput').value  //sets a variable for the bill amount selector using the VALUE of the #billInput selector
+let tipValue = document.getElementById('tipForm').value;  //sets a variable for the tip Amount selector to the VALUE of the #tipForm selector
+let billValue = document.getElementById('billInput').value; //sets a variable for the bill amount selector using the VALUE of the #billInput selector
 
 
 /* ---------------------------------------Step 2: turn strings into numbers, use parseFloat() method to do this.-----------  IE: let vairable = parseFloat(stringVariable)----------------------------- */
